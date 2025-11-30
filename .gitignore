@@ -6,6 +6,7 @@ build/
 *.log
 .env
 .env.*
+.idea/
 __pycache__/
 *.pyc
 *.pyo
