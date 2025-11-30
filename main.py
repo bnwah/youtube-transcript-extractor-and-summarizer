@@ -50,6 +50,7 @@ if __name__ == "__main__":
 
         print("\nExtracting transcript...")
         transcript_text = get_transcript(video_id)
+        print(f"\nTranscript Text:\n{transcript_text}")
 
         if transcript_text:
             print("\nGenerating summary...")
